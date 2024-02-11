@@ -1,6 +1,6 @@
 # Template file for 'lms'
 pkgname=lms
-version=3.42.1
+version=3.49.0
 revision=1
 build_style=cmake
 hostmakedepends="pkg-config"
@@ -11,7 +11,7 @@ maintainer="danoloan10 <danoloan10@tutanota.com>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/epoupon/lms"
 distfiles="https://github.com/epoupon/lms/archive/refs/tags/v${version}.tar.gz "
-checksum=5349a71387f4aab2253f9a6cf352b237698438bc20c0ffd1ff8d34847b54572b
+checksum=f976d5ca820de692856ef58b46374d23be8210b3b493fbfb07540c145f0b867b
 
 system_accounts="_lms"
 _lms_homedir="/var/lms"
